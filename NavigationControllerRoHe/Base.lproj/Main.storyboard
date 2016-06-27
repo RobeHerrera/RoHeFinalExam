@@ -8,16 +8,16 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Home" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="BYZ-38-t0r" customClass="Home" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="93y-QV-r5e" userLabel="tblHome">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="24" sectionHeaderHeight="28" sectionFooterHeight="28" id="93y-QV-r5e" userLabel="tblHome">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="yG4-CE-jH8"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hn5-kX-nFJ"/>
@@ -28,10 +28,60 @@
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="MYJ-OD-iok"/>
+                    <connections>
+                        <segue destination="mQN-0I-iZK" kind="push" id="m13-mB-E17"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="378"/>
+            <point key="canvasLocation" x="35" y="378"/>
+        </scene>
+        <!--StateView-->
+        <scene sceneID="Dt5-Ce-uVC">
+            <objects>
+                <viewController storyboardIdentifier="StateViewController" id="mQN-0I-iZK" userLabel="StateView" customClass="StateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7It-6i-Fik">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="urN-Ah-Bch">
+                                <rect key="frame" x="0.0" y="421" width="320" height="147"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="0.1098366481" blue="0.28453798689999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jalisco.png" id="s7D-XS-fG9">
+                                <rect key="frame" x="0.0" y="64" width="320" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jalisco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xF8-EB-nDX">
+                                <rect key="frame" x="20" y="262" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xaW-Zt-FUw">
+                                <rect key="frame" x="20" y="267" width="288" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <string key="text">Jalisco es uno de los estados más típicos del país, ya que es el símbolo del tequila, mariachi, charería y mujeres bellas. Es un estado geográficamente privilegiado ya que cuenta con playas como Puerto Vallarta, Barra de Navidad, Melaque, Costalegre y Tenacatita. Así mismo contamos con el lago más grande de México que es Chapala donde se pueden encontrar pueblos típicos como Chapala, Ajijic, Jocotepec y Tizapan el Alto.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RAF-9H-0Ne"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5V-1C-ffh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="378"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="48N-fN-ksm">
@@ -51,4 +101,7 @@
             <point key="canvasLocation" x="-431" y="378"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="jalisco.png" width="175" height="247"/>
+    </resources>
 </document>

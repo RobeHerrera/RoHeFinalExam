@@ -16,6 +16,12 @@
 		2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653A61D21867E003FDEC2 /* LaunchScreen.storyboard */; };
 		2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653B81D219AFF003FDEC2 /* cellHome.m */; };
 		2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653B91D219AFF003FDEC2 /* cellHome.xib */; };
+		2B8653C21D21B280003FDEC2 /* colima.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BD1D21B280003FDEC2 /* colima.png */; };
+		2B8653C31D21B280003FDEC2 /* durango.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BE1D21B280003FDEC2 /* durango.png */; };
+		2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BF1D21B280003FDEC2 /* jalisco.png */; };
+		2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C01D21B280003FDEC2 /* nayarit.png */; };
+		2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C11D21B280003FDEC2 /* sinaloa.png */; };
+		2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653C81D21C1D2003FDEC2 /* StateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,13 @@
 		2B8653B71D219AFF003FDEC2 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		2B8653B81D219AFF003FDEC2 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		2B8653B91D219AFF003FDEC2 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		2B8653BD1D21B280003FDEC2 /* colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colima.png; path = imgsEstadosMexico/colima.png; sourceTree = "<group>"; };
+		2B8653BE1D21B280003FDEC2 /* durango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = durango.png; path = imgsEstadosMexico/durango.png; sourceTree = "<group>"; };
+		2B8653BF1D21B280003FDEC2 /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jalisco.png; path = imgsEstadosMexico/jalisco.png; sourceTree = "<group>"; };
+		2B8653C01D21B280003FDEC2 /* nayarit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nayarit.png; path = imgsEstadosMexico/nayarit.png; sourceTree = "<group>"; };
+		2B8653C11D21B280003FDEC2 /* sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sinaloa.png; path = imgsEstadosMexico/sinaloa.png; sourceTree = "<group>"; };
+		2B8653C71D21C1D2003FDEC2 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		2B8653C81D21C1D2003FDEC2 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +78,10 @@
 		2B8653941D21867E003FDEC2 /* NavigationControllerRoHe */ = {
 			isa = PBXGroup;
 			children = (
-				2B8653B11D219A56003FDEC2 /* Cells */,
 				2B8653B01D2186AC003FDEC2 /* Main */,
 				2B8653AF1D218692003FDEC2 /* Controller */,
+				2B8653B11D219A56003FDEC2 /* Cells */,
+				2B8653BC1D21B208003FDEC2 /* Imgs */,
 				2B86539E1D21867E003FDEC2 /* Main.storyboard */,
 				2B8653A41D21867E003FDEC2 /* Assets.xcassets */,
 				2B8653A61D21867E003FDEC2 /* LaunchScreen.storyboard */,
@@ -91,6 +105,8 @@
 			children = (
 				2B86539B1D21867E003FDEC2 /* Home.h */,
 				2B86539C1D21867E003FDEC2 /* Home.m */,
+				2B8653C71D21C1D2003FDEC2 /* StateViewController.h */,
+				2B8653C81D21C1D2003FDEC2 /* StateViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -112,6 +128,18 @@
 				2B8653B91D219AFF003FDEC2 /* cellHome.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		2B8653BC1D21B208003FDEC2 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653BD1D21B280003FDEC2 /* colima.png */,
+				2B8653BE1D21B280003FDEC2 /* durango.png */,
+				2B8653BF1D21B280003FDEC2 /* jalisco.png */,
+				2B8653C01D21B280003FDEC2 /* nayarit.png */,
+				2B8653C11D21B280003FDEC2 /* sinaloa.png */,
+			);
+			name = Imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8653C21D21B280003FDEC2 /* colima.png in Resources */,
+				2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */,
 				2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */,
+				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
 				2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */,
 				2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */,
+				2B8653C31D21B280003FDEC2 /* durango.png in Resources */,
+				2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */,
 				2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +221,7 @@
 			files = (
 				2B86539D1D21867E003FDEC2 /* Home.m in Sources */,
 				2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */,
+				2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */,
 				2B8653971D21867E003FDEC2 /* main.m in Sources */,
 				2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */,
 				2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */,

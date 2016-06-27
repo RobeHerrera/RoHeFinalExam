@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellHome.h"
+#import "StateViewController.h"
 
 @interface Home : UIViewController
 
