@@ -22,6 +22,24 @@
 		2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C01D21B280003FDEC2 /* nayarit.png */; };
 		2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C11D21B280003FDEC2 /* sinaloa.png */; };
 		2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653C81D21C1D2003FDEC2 /* StateViewController.m */; };
+		2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */; };
+		2B8653D01D21E591003FDEC2 /* cellStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653CE1D21E591003FDEC2 /* cellStates.m */; };
+		2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653CF1D21E591003FDEC2 /* cellStates.xib */; };
+		2B8653DC1D220468003FDEC2 /* ameca.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D71D220468003FDEC2 /* ameca.png */; };
+		2B8653DD1D220468003FDEC2 /* colotlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D81D220468003FDEC2 /* colotlan.png */; };
+		2B8653DE1D220468003FDEC2 /* guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D91D220468003FDEC2 /* guadalajara.png */; };
+		2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653DA1D220468003FDEC2 /* mascota.gif */; };
+		2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653DB1D220468003FDEC2 /* puertovallarta.png */; };
+		2B8653E61D22083A003FDEC2 /* armeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E11D22083A003FDEC2 /* armeria.png */; };
+		2B8653E71D22083A003FDEC2 /* colima.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E21D22083A003FDEC2 /* colima.png */; };
+		2B8653E81D22083A003FDEC2 /* comala.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E31D22083A003FDEC2 /* comala.png */; };
+		2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E41D22083A003FDEC2 /* manzanillo.jpg */; };
+		2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E51D22083A003FDEC2 /* tecoman.png */; };
+		2B8653F01D220B33003FDEC2 /* culican.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EB1D220B33003FDEC2 /* culican.png */; };
+		2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EC1D220B33003FDEC2 /* guamuchil.gif */; };
+		2B8653F21D220B33003FDEC2 /* guasave.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653ED1D220B33003FDEC2 /* guasave.png */; };
+		2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EE1D220B33003FDEC2 /* losmochis.jpg */; };
+		2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +64,26 @@
 		2B8653C11D21B280003FDEC2 /* sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sinaloa.png; path = imgsEstadosMexico/sinaloa.png; sourceTree = "<group>"; };
 		2B8653C71D21C1D2003FDEC2 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
 		2B8653C81D21C1D2003FDEC2 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		2B8653CA1D21E509003FDEC2 /* MunicipioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunicipioViewController.h; sourceTree = "<group>"; };
+		2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunicipioViewController.m; sourceTree = "<group>"; };
+		2B8653CD1D21E591003FDEC2 /* cellStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStates.h; sourceTree = "<group>"; };
+		2B8653CE1D21E591003FDEC2 /* cellStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellStates.m; sourceTree = "<group>"; };
+		2B8653CF1D21E591003FDEC2 /* cellStates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellStates.xib; sourceTree = "<group>"; };
+		2B8653D71D220468003FDEC2 /* ameca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ameca.png; path = municipiosJalisco/ameca.png; sourceTree = "<group>"; };
+		2B8653D81D220468003FDEC2 /* colotlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colotlan.png; path = municipiosJalisco/colotlan.png; sourceTree = "<group>"; };
+		2B8653D91D220468003FDEC2 /* guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guadalajara.png; path = municipiosJalisco/guadalajara.png; sourceTree = "<group>"; };
+		2B8653DA1D220468003FDEC2 /* mascota.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = mascota.gif; path = municipiosJalisco/mascota.gif; sourceTree = "<group>"; };
+		2B8653DB1D220468003FDEC2 /* puertovallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = puertovallarta.png; path = municipiosJalisco/puertovallarta.png; sourceTree = "<group>"; };
+		2B8653E11D22083A003FDEC2 /* armeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = armeria.png; path = municipiosColima/armeria.png; sourceTree = "<group>"; };
+		2B8653E21D22083A003FDEC2 /* colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colima.png; path = municipiosColima/colima.png; sourceTree = "<group>"; };
+		2B8653E31D22083A003FDEC2 /* comala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = comala.png; path = municipiosColima/comala.png; sourceTree = "<group>"; };
+		2B8653E41D22083A003FDEC2 /* manzanillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manzanillo.jpg; path = municipiosColima/manzanillo.jpg; sourceTree = "<group>"; };
+		2B8653E51D22083A003FDEC2 /* tecoman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tecoman.png; path = municipiosColima/tecoman.png; sourceTree = "<group>"; };
+		2B8653EB1D220B33003FDEC2 /* culican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = culican.png; path = municipiosSinaloa/culican.png; sourceTree = "<group>"; };
+		2B8653EC1D220B33003FDEC2 /* guamuchil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = guamuchil.gif; path = municipiosSinaloa/guamuchil.gif; sourceTree = "<group>"; };
+		2B8653ED1D220B33003FDEC2 /* guasave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guasave.png; path = municipiosSinaloa/guasave.png; sourceTree = "<group>"; };
+		2B8653EE1D220B33003FDEC2 /* losmochis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = losmochis.jpg; path = municipiosSinaloa/losmochis.jpg; sourceTree = "<group>"; };
+		2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mazatlan.jpg; path = municipiosSinaloa/mazatlan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +145,8 @@
 				2B86539C1D21867E003FDEC2 /* Home.m */,
 				2B8653C71D21C1D2003FDEC2 /* StateViewController.h */,
 				2B8653C81D21C1D2003FDEC2 /* StateViewController.m */,
+				2B8653CA1D21E509003FDEC2 /* MunicipioViewController.h */,
+				2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -126,6 +166,9 @@
 				2B8653B71D219AFF003FDEC2 /* cellHome.h */,
 				2B8653B81D219AFF003FDEC2 /* cellHome.m */,
 				2B8653B91D219AFF003FDEC2 /* cellHome.xib */,
+				2B8653CD1D21E591003FDEC2 /* cellStates.h */,
+				2B8653CE1D21E591003FDEC2 /* cellStates.m */,
+				2B8653CF1D21E591003FDEC2 /* cellStates.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -133,6 +176,9 @@
 		2B8653BC1D21B208003FDEC2 /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
+				2B8653D61D2203A9003FDEC2 /* imgColima */,
+				2B8653D41D220398003FDEC2 /* imgSinaloa */,
+				2B8653D21D220389003FDEC2 /* imgJalisco */,
 				2B8653BD1D21B280003FDEC2 /* colima.png */,
 				2B8653BE1D21B280003FDEC2 /* durango.png */,
 				2B8653BF1D21B280003FDEC2 /* jalisco.png */,
@@ -140,6 +186,42 @@
 				2B8653C11D21B280003FDEC2 /* sinaloa.png */,
 			);
 			name = Imgs;
+			sourceTree = "<group>";
+		};
+		2B8653D21D220389003FDEC2 /* imgJalisco */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653D71D220468003FDEC2 /* ameca.png */,
+				2B8653D81D220468003FDEC2 /* colotlan.png */,
+				2B8653D91D220468003FDEC2 /* guadalajara.png */,
+				2B8653DA1D220468003FDEC2 /* mascota.gif */,
+				2B8653DB1D220468003FDEC2 /* puertovallarta.png */,
+			);
+			name = imgJalisco;
+			sourceTree = "<group>";
+		};
+		2B8653D41D220398003FDEC2 /* imgSinaloa */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653EB1D220B33003FDEC2 /* culican.png */,
+				2B8653EC1D220B33003FDEC2 /* guamuchil.gif */,
+				2B8653ED1D220B33003FDEC2 /* guasave.png */,
+				2B8653EE1D220B33003FDEC2 /* losmochis.jpg */,
+				2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */,
+			);
+			name = imgSinaloa;
+			sourceTree = "<group>";
+		};
+		2B8653D61D2203A9003FDEC2 /* imgColima */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653E11D22083A003FDEC2 /* armeria.png */,
+				2B8653E21D22083A003FDEC2 /* colima.png */,
+				2B8653E31D22083A003FDEC2 /* comala.png */,
+				2B8653E41D22083A003FDEC2 /* manzanillo.jpg */,
+				2B8653E51D22083A003FDEC2 /* tecoman.png */,
+			);
+			name = imgColima;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,14 +283,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8653C21D21B280003FDEC2 /* colima.png in Resources */,
+				2B8653E71D22083A003FDEC2 /* colima.png in Resources */,
+				2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */,
+				2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */,
+				2B8653DC1D220468003FDEC2 /* ameca.png in Resources */,
+				2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */,
 				2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */,
+				2B8653DE1D220468003FDEC2 /* guadalajara.png in Resources */,
 				2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */,
+				2B8653E81D22083A003FDEC2 /* comala.png in Resources */,
+				2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */,
+				2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */,
+				2B8653F21D220B33003FDEC2 /* guasave.png in Resources */,
 				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
+				2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */,
+				2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */,
 				2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */,
+				2B8653F01D220B33003FDEC2 /* culican.png in Resources */,
 				2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */,
 				2B8653C31D21B280003FDEC2 /* durango.png in Resources */,
 				2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */,
 				2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */,
+				2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */,
+				2B8653DD1D220468003FDEC2 /* colotlan.png in Resources */,
+				2B8653E61D22083A003FDEC2 /* armeria.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +320,10 @@
 				2B86539D1D21867E003FDEC2 /* Home.m in Sources */,
 				2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */,
 				2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */,
+				2B8653D01D21E591003FDEC2 /* cellStates.m in Sources */,
 				2B8653971D21867E003FDEC2 /* main.m in Sources */,
 				2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */,
+				2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */,
 				2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

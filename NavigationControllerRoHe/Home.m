@@ -102,14 +102,16 @@
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     self.stTitleSelected        = self.destinationTitles[indexPath.row];
     self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
     self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    
     [self performSegueWithIdentifier:@"StateViewController" sender:self];
 }
-/**********************************************************************************************/
+/*********************************************************************************************/
 #pragma mark - Navigation
-/**********************************************************************************************/
+/*********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
     if ([segue.destinationViewController isKindOfClass:[StateViewController class]]) {
@@ -117,9 +119,7 @@
         destinationState.destinationTitle        = self.stTitleSelected;
         destinationState.destinationDescription  = self.stDescriptionSelected;
         destinationState.destinationPhoto        = self.stPhotoSelected;
-        
     }
-     
 }
 
 
