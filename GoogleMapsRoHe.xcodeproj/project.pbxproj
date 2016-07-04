@@ -43,7 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B8653921D21867E003FDEC2 /* NavigationControllerRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllerRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8653921D21867E003FDEC2 /* GoogleMapsRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8653961D21867E003FDEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B8653981D21867E003FDEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B8653991D21867E003FDEC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		2B8653891D21867E003FDEC2 = {
 			isa = PBXGroup;
 			children = (
-				2B8653941D21867E003FDEC2 /* NavigationControllerRoHe */,
+				2B8653941D21867E003FDEC2 /* GoogleMapsRoHe */,
 				2B8653931D21867E003FDEC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,12 +108,12 @@
 		2B8653931D21867E003FDEC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B8653921D21867E003FDEC2 /* NavigationControllerRoHe.app */,
+				2B8653921D21867E003FDEC2 /* GoogleMapsRoHe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B8653941D21867E003FDEC2 /* NavigationControllerRoHe */ = {
+		2B8653941D21867E003FDEC2 /* GoogleMapsRoHe */ = {
 			isa = PBXGroup;
 			children = (
 				2B8653B01D2186AC003FDEC2 /* Main */,
@@ -127,6 +127,7 @@
 				2B8653A11D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld */,
 				2B8653951D21867E003FDEC2 /* Supporting Files */,
 			);
+			name = GoogleMapsRoHe;
 			path = NavigationControllerRoHe;
 			sourceTree = "<group>";
 		};
@@ -227,9 +228,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B8653911D21867E003FDEC2 /* NavigationControllerRoHe */ = {
+		2B8653911D21867E003FDEC2 /* GoogleMapsRoHe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "NavigationControllerRoHe" */;
+			buildConfigurationList = 2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "GoogleMapsRoHe" */;
 			buildPhases = (
 				2B86538E1D21867E003FDEC2 /* Sources */,
 				2B86538F1D21867E003FDEC2 /* Frameworks */,
@@ -239,9 +240,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigationControllerRoHe;
+			name = GoogleMapsRoHe;
 			productName = NavigationControllerRoHe;
-			productReference = 2B8653921D21867E003FDEC2 /* NavigationControllerRoHe.app */;
+			productReference = 2B8653921D21867E003FDEC2 /* GoogleMapsRoHe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "NavigationControllerRoHe" */;
+			buildConfigurationList = 2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "GoogleMapsRoHe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -272,7 +273,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B8653911D21867E003FDEC2 /* NavigationControllerRoHe */,
+				2B8653911D21867E003FDEC2 /* GoogleMapsRoHe */,
 			);
 		};
 /* End PBXProject section */
@@ -438,7 +439,7 @@
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.NavigationControllerRoHe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsRoHe;
 			};
 			name = Debug;
 		};
@@ -450,14 +451,14 @@
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.NavigationControllerRoHe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsRoHe;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "NavigationControllerRoHe" */ = {
+		2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "GoogleMapsRoHe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B8653AA1D21867E003FDEC2 /* Debug */,
@@ -466,13 +467,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "NavigationControllerRoHe" */ = {
+		2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "GoogleMapsRoHe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B8653AD1D21867E003FDEC2 /* Debug */,
 				2B8653AE1D21867E003FDEC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

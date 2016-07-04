@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-               BuildableName = "NavigationControllerRoHe.app"
-               BlueprintName = "NavigationControllerRoHe"
-               ReferencedContainer = "container:NavigationControllerRoHe.xcodeproj">
+               BuildableName = "GoogleMapsRoHe.app"
+               BlueprintName = "GoogleMapsRoHe"
+               ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "NavigationControllerRoHe.app"
-            BlueprintName = "NavigationControllerRoHe"
-            ReferencedContainer = "container:NavigationControllerRoHe.xcodeproj">
+            BuildableName = "GoogleMapsRoHe.app"
+            BlueprintName = "GoogleMapsRoHe"
+            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "NavigationControllerRoHe.app"
-            BlueprintName = "NavigationControllerRoHe"
-            ReferencedContainer = "container:NavigationControllerRoHe.xcodeproj">
+            BuildableName = "GoogleMapsRoHe.app"
+            BlueprintName = "GoogleMapsRoHe"
+            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "NavigationControllerRoHe.app"
-            BlueprintName = "NavigationControllerRoHe"
-            ReferencedContainer = "container:NavigationControllerRoHe.xcodeproj">
+            BuildableName = "GoogleMapsRoHe.app"
+            BlueprintName = "GoogleMapsRoHe"
+            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
