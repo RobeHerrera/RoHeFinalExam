@@ -7,6 +7,7 @@
 //
 
 #import "MunicipioViewController.h"
+#import <Google/Analytics.h>
 
 @interface MunicipioViewController ()
 
@@ -14,15 +15,28 @@
 
 @implementation MunicipioViewController
 
+
+-(void)viewWillAppear:(BOOL)animated{
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"MunicipioViewController"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+}
+
 /*********************************************************************************************/
 #pragma mark - Initialization methods
 /*********************************************************************************************/
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.lblMunicipio.text          = self.destinationMunicpio;
+    self.coorLatitude = 20.6947103;
+    self.coorLongitude = -103.4203145;
+    self.coorZoom = 17;
     
     /////////////////// For COLIMA ///////////////////////
            if ([self.destinationMunicpio  isEqual: @"Armeria"]) {
+               self.coorLatitude = 18.936994;
+               self.coorLongitude = -103.964762;
+               self.coorZoom = 14;
                self.imgMunicipio.image   = [UIImage imageNamed:@"armeria.png"];
         self.lblMunicipioDes.text   = @"AAlgunos aseguran que la localidad de Armería, fundada cerca del río del mismo nombre, fue en un principio, un lugar en el cual se armaban barcos, para posteriormente convertirse en un destacamento de guardias virreinales que otorgaban garantías a los viajeros que transitaban por el “Camino Real” hacia Manzanillo o de regreso a la ciudad de Colima; con el paso del tiempo, ahí se instaló una hacienda que se convirtió en el punto de partida de la localidad que hoy conocemos como Armería, que ya era reconocida en la región como uno de los sitios de gran tradición gracias a Cuyutlán y por ser una zona productora de sal a partir de la época precolombina.";
     
@@ -66,6 +80,9 @@
     }
     /////////////////// For JALISCO ///////////////////////
     if ([self.destinationMunicpio  isEqual: @"Guadalajara"]) {
+        self.coorLatitude = 20.679045;
+        self.coorLongitude = -103.340381;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"guadalajara.png"];
         self.lblMunicipioDes.text   = @"Guadalajara es una ciudad y municipio mexicano, capital y urbe más poblada del estado de Jalisco. Se localiza en el occidente de México, al centro de Jalisco, en la zona geográfica conocida como Valle de Atemajac. Es la segunda megapólis más poblada del país con 1.495.182 8 habitantes y forma parte de la denominada zona metropolitana de Guadalajara, junto con otros 8 municipios, considerada la segunda área urbana más grande en México y la décima en América Latina, con 4.625.000 habitantes. ";
         
@@ -87,6 +104,9 @@
     }
     /////////////////// For SINALOA ///////////////////////
     if ([self.destinationMunicpio  isEqual: @"Culiacan"]) {
+        self.coorLatitude = 24.805064;
+        self.coorLongitude = -107.402257;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"culican.png"];
         self.lblMunicipioDes.text   = @"El municipio de Culiacán se encuentra localizado en el centro del Estado de Sinaloa y se extiende desde la costa en el Golfo de California hasta los límites con Durango en la Sierra Madre Occidental, tiene una extensión territorial de 4 758 kilómetros cuadrados que representan el 8.16% de la extensión total del estado, siendo el tercero por su territorio.";
         
@@ -138,9 +158,22 @@
 #pragma mark - Navigation
 /*********************************************************************************************/
 // In a storyboard-based application, you will often want to do a little preparation before navigation
+
+- (IBAction)btnPressedViewLocation:(id)sender {
+    [self performSegueWithIdentifier:@"MapsViewController" sender:self];
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.destinationViewController isKindOfClass:[MapsViewController class]]) {
+        MapsViewController *destinationState    = [segue destinationViewController];
+        destinationState.locationLatitude       = self.coorLatitude;
+        destinationState.locationLongitude      = self.coorLongitude;
+        destinationState.locationZoom           = self.coorZoom;
+        
+    }
 }
+
 
 @end

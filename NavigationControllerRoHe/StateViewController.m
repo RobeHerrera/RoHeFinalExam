@@ -7,6 +7,7 @@
 //
 
 #import "StateViewController.h"
+#import <Google/Analytics.h>
 
 @interface StateViewController ()
 
@@ -17,6 +18,11 @@
 
 @implementation StateViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"StateViewController"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+}
 /*********************************************************************************************/
 #pragma mark - Initialization methods
 /*********************************************************************************************/

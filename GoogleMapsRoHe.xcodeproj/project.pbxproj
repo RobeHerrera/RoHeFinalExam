@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */; };
 		2B8653971D21867E003FDEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653961D21867E003FDEC2 /* main.m */; };
 		2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653991D21867E003FDEC2 /* AppDelegate.m */; };
 		2B86539D1D21867E003FDEC2 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86539C1D21867E003FDEC2 /* Home.m */; };
@@ -40,9 +41,13 @@
 		2B8653F21D220B33003FDEC2 /* guasave.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653ED1D220B33003FDEC2 /* guasave.png */; };
 		2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EE1D220B33003FDEC2 /* losmochis.jpg */; };
 		2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */; };
+		2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */; };
+		61DADAD458B91F0EE4AE0FC3 /* libPods-GoogleMapsRoHe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapsRoHe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B8653921D21867E003FDEC2 /* GoogleMapsRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8653961D21867E003FDEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B8653981D21867E003FDEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +89,10 @@
 		2B8653ED1D220B33003FDEC2 /* guasave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guasave.png; path = municipiosSinaloa/guasave.png; sourceTree = "<group>"; };
 		2B8653EE1D220B33003FDEC2 /* losmochis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = losmochis.jpg; path = municipiosSinaloa/losmochis.jpg; sourceTree = "<group>"; };
 		2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mazatlan.jpg; path = municipiosSinaloa/mazatlan.jpg; sourceTree = "<group>"; };
+		2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.release.xcconfig"; sourceTree = "<group>"; };
+		F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +100,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DADAD458B91F0EE4AE0FC3 /* libPods-GoogleMapsRoHe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF45E7B417A501F382DA7A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2B8653891D21867E003FDEC2 = {
 			isa = PBXGroup;
 			children = (
+				2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */,
 				2B8653941D21867E003FDEC2 /* GoogleMapsRoHe */,
 				2B8653931D21867E003FDEC2 /* Products */,
+				E7BEF1D645BF8D300DAB82C4 /* Pods */,
+				1AF45E7B417A501F382DA7A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +169,8 @@
 				2B8653C81D21C1D2003FDEC2 /* StateViewController.m */,
 				2B8653CA1D21E509003FDEC2 /* MunicipioViewController.h */,
 				2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */,
+				2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */,
+				2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -225,6 +248,15 @@
 			name = imgColima;
 			sourceTree = "<group>";
 		};
+		E7BEF1D645BF8D300DAB82C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */,
+				546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "GoogleMapsRoHe" */;
 			buildPhases = (
+				CB94DF2CDEF6EEF13F8B40B6 /* [CP] Check Pods Manifest.lock */,
 				2B86538E1D21867E003FDEC2 /* Sources */,
 				2B86538F1D21867E003FDEC2 /* Frameworks */,
 				2B8653901D21867E003FDEC2 /* Resources */,
+				7AC1EA4B04C849A7448B9D76 /* [CP] Embed Pods Frameworks */,
+				E4306FD6B2B98F3002D27B08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +331,7 @@
 				2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */,
 				2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */,
 				2B8653F21D220B33003FDEC2 /* guasave.png in Resources */,
+				2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */,
 				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
 				2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */,
 				2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */,
@@ -313,6 +349,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7AC1EA4B04C849A7448B9D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB94DF2CDEF6EEF13F8B40B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4306FD6B2B98F3002D27B08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B86538E1D21867E003FDEC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -323,6 +407,7 @@
 				2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */,
 				2B8653D01D21E591003FDEC2 /* cellStates.m in Sources */,
 				2B8653971D21867E003FDEC2 /* main.m in Sources */,
+				2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */,
 				2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */,
 				2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */,
 				2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */,
@@ -433,24 +518,26 @@
 		};
 		2B8653AD1D21867E003FDEC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.NavigationControllerRoHe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.GoogleMapsRoHe;
 				PRODUCT_NAME = GoogleMapsRoHe;
 			};
 			name = Debug;
 		};
 		2B8653AE1D21867E003FDEC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.NavigationControllerRoHe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.GoogleMapsRoHe;
 				PRODUCT_NAME = GoogleMapsRoHe;
 			};
 			name = Release;

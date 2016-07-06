@@ -7,6 +7,7 @@
 //
 
 #import "Home.h"
+#import <Google/Analytics.h>
 
 @interface Home ()
 @property NSMutableArray *destinationTitles;
@@ -20,6 +21,12 @@
 @end
 
 @implementation Home
+
+-(void)viewWillAppear:(BOOL)animated{
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"Home"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+}
 /**********************************************************************************************/
 #pragma mark - Initialization methods
 /**********************************************************************************************/
