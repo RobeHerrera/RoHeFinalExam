@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0B6DE21D74C60E00A2ACDF /* examen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DDE1D74C60E00A2ACDF /* examen.jpg */; };
+		2B0B6DE31D74C60E00A2ACDF /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DDF1D74C60E00A2ACDF /* maps.png */; };
+		2B0B6DE41D74C60E00A2ACDF /* paypal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */; };
+		2B0B6DE51D74C60E00A2ACDF /* tiltulo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE11D74C60E00A2ACDF /* tiltulo.jpeg */; };
 		2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */; };
 		2B8653971D21867E003FDEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653961D21867E003FDEC2 /* main.m */; };
 		2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653991D21867E003FDEC2 /* AppDelegate.m */; };
@@ -42,14 +46,15 @@
 		2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EE1D220B33003FDEC2 /* losmochis.jpg */; };
 		2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */; };
 		2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */; };
-		2BBD143B1D74B87E00ECDD34 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD14381D74B87E00ECDD34 /* maps.png */; };
-		2BBD143C1D74B87E00ECDD34 /* paypal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD14391D74B87E00ECDD34 /* paypal.jpeg */; };
-		2BBD143D1D74B87E00ECDD34 /* tiltulo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD143A1D74B87E00ECDD34 /* tiltulo.jpeg */; };
 		61DADAD458B91F0EE4AE0FC3 /* libPods-GoogleMapsRoHe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapsRoHe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0B6DDE1D74C60E00A2ACDF /* examen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = examen.jpg; sourceTree = "<group>"; };
+		2B0B6DDF1D74C60E00A2ACDF /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paypal.jpeg; sourceTree = "<group>"; };
+		2B0B6DE11D74C60E00A2ACDF /* tiltulo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiltulo.jpeg; sourceTree = "<group>"; };
 		2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B8653921D21867E003FDEC2 /* ExamenRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8653961D21867E003FDEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,9 +99,6 @@
 		2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mazatlan.jpg; path = municipiosSinaloa/mazatlan.jpg; sourceTree = "<group>"; };
 		2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
 		2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
-		2BBD14381D74B87E00ECDD34 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
-		2BBD14391D74B87E00ECDD34 /* paypal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paypal.jpeg; sourceTree = "<group>"; };
-		2BBD143A1D74B87E00ECDD34 /* tiltulo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiltulo.jpeg; sourceTree = "<group>"; };
 		546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.release.xcconfig"; sourceTree = "<group>"; };
 		F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,17 @@
 				0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B0B6DDD1D74C60E00A2ACDF /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				2B0B6DDE1D74C60E00A2ACDF /* examen.jpg */,
+				2B0B6DDF1D74C60E00A2ACDF /* maps.png */,
+				2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */,
+				2B0B6DE11D74C60E00A2ACDF /* tiltulo.jpeg */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 		2B8653891D21867E003FDEC2 = {
@@ -206,7 +219,7 @@
 		2B8653BC1D21B208003FDEC2 /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
-				2BBD14371D74B87E00ECDD34 /* imgs */,
+				2B0B6DDD1D74C60E00A2ACDF /* imgs */,
 				2B8653D61D2203A9003FDEC2 /* imgColima */,
 				2B8653D41D220398003FDEC2 /* imgSinaloa */,
 				2B8653D21D220389003FDEC2 /* imgJalisco */,
@@ -253,16 +266,6 @@
 				2B8653E51D22083A003FDEC2 /* tecoman.png */,
 			);
 			name = imgColima;
-			sourceTree = "<group>";
-		};
-		2BBD14371D74B87E00ECDD34 /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				2BBD14381D74B87E00ECDD34 /* maps.png */,
-				2BBD14391D74B87E00ECDD34 /* paypal.jpeg */,
-				2BBD143A1D74B87E00ECDD34 /* tiltulo.jpeg */,
-			);
-			path = imgs;
 			sourceTree = "<group>";
 		};
 		E7BEF1D645BF8D300DAB82C4 /* Pods */ = {
@@ -335,26 +338,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0B6DE31D74C60E00A2ACDF /* maps.png in Resources */,
 				2B8653C21D21B280003FDEC2 /* colima.png in Resources */,
 				2B8653E71D22083A003FDEC2 /* colima.png in Resources */,
-				2BBD143B1D74B87E00ECDD34 /* maps.png in Resources */,
 				2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */,
 				2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */,
 				2B8653DC1D220468003FDEC2 /* ameca.png in Resources */,
 				2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */,
+				2B0B6DE51D74C60E00A2ACDF /* tiltulo.jpeg in Resources */,
 				2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */,
 				2B8653DE1D220468003FDEC2 /* guadalajara.png in Resources */,
 				2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */,
 				2B8653E81D22083A003FDEC2 /* comala.png in Resources */,
 				2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */,
-				2BBD143D1D74B87E00ECDD34 /* tiltulo.jpeg in Resources */,
+				2B0B6DE41D74C60E00A2ACDF /* paypal.jpeg in Resources */,
 				2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */,
 				2B8653F21D220B33003FDEC2 /* guasave.png in Resources */,
 				2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */,
 				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
 				2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */,
 				2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */,
-				2BBD143C1D74B87E00ECDD34 /* paypal.jpeg in Resources */,
 				2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */,
 				2B8653F01D220B33003FDEC2 /* culican.png in Resources */,
 				2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */,
@@ -363,6 +366,7 @@
 				2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */,
 				2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */,
 				2B8653DD1D220468003FDEC2 /* colotlan.png in Resources */,
+				2B0B6DE21D74C60E00A2ACDF /* examen.jpg in Resources */,
 				2B8653E61D22083A003FDEC2 /* armeria.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,7 +548,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.ExamenRoHe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.GoogleMapsRoHe;
 				PRODUCT_NAME = ExamenRoHe;
 			};
 			name = Debug;
@@ -557,7 +561,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.ExamenRoHe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.GoogleMapsRoHe;
 				PRODUCT_NAME = ExamenRoHe;
 			};
 			name = Release;
