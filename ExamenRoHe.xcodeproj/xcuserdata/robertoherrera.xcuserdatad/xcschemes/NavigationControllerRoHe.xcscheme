@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-               BuildableName = "GoogleMapsRoHe.app"
+               BuildableName = "ExamenRoHe.app"
                BlueprintName = "ExamenRoHe"
                ReferencedContainer = "container:ExamenRoHe.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "GoogleMapsRoHe.app"
+            BuildableName = "ExamenRoHe.app"
             BlueprintName = "ExamenRoHe"
             ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "GoogleMapsRoHe.app"
+            BuildableName = "ExamenRoHe.app"
             BlueprintName = "ExamenRoHe"
             ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
-            BuildableName = "GoogleMapsRoHe.app"
+            BuildableName = "ExamenRoHe.app"
             BlueprintName = "ExamenRoHe"
             ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>

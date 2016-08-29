@@ -11,6 +11,21 @@
 		2B0B6DE31D74C60E00A2ACDF /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DDF1D74C60E00A2ACDF /* maps.png */; };
 		2B0B6DE41D74C60E00A2ACDF /* paypal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */; };
 		2B0B6DE51D74C60E00A2ACDF /* tiltulo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE11D74C60E00A2ACDF /* tiltulo.jpeg */; };
+		2B0B6DEC1D74CE3500A2ACDF /* cellAmande.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE71D74CE3500A2ACDF /* cellAmande.m */; };
+		2B0B6DED1D74CE3500A2ACDF /* cellAmande.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DE81D74CE3500A2ACDF /* cellAmande.xib */; };
+		2B0B6DEE1D74CE3500A2ACDF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B6DEA1D74CE3500A2ACDF /* TableViewCell.m */; };
+		2B0B6DEF1D74CE3500A2ACDF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DEB1D74CE3500A2ACDF /* TableViewCell.xib */; };
+		2B0B6DF41D74CE6400A2ACDF /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF11D74CE6400A2ACDF /* CatalogViewController.m */; };
+		2B0B6DF51D74CE6400A2ACDF /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF31D74CE6400A2ACDF /* ShopViewController.m */; };
+		2B0B6DFF1D74D08600A2ACDF /* anillos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF61D74D08600A2ACDF /* anillos.jpg */; };
+		2B0B6E001D74D08600A2ACDF /* aretes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF71D74D08600A2ACDF /* aretes.jpg */; };
+		2B0B6E011D74D08600A2ACDF /* cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF81D74D08600A2ACDF /* cart.jpg */; };
+		2B0B6E021D74D08600A2ACDF /* collares.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DF91D74D08600A2ACDF /* collares.jpg */; };
+		2B0B6E031D74D08600A2ACDF /* dije.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DFA1D74D08600A2ACDF /* dije.jpg */; };
+		2B0B6E041D74D08600A2ACDF /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DFB1D74D08600A2ACDF /* email.png */; };
+		2B0B6E051D74D08600A2ACDF /* esclava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DFC1D74D08600A2ACDF /* esclava.jpg */; };
+		2B0B6E061D74D08600A2ACDF /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DFD1D74D08600A2ACDF /* map.png */; };
+		2B0B6E071D74D08600A2ACDF /* question.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B6DFE1D74D08600A2ACDF /* question.jpg */; };
 		2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */; };
 		2B8653971D21867E003FDEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653961D21867E003FDEC2 /* main.m */; };
 		2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653991D21867E003FDEC2 /* AppDelegate.m */; };
@@ -55,6 +70,25 @@
 		2B0B6DDF1D74C60E00A2ACDF /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paypal.jpeg; sourceTree = "<group>"; };
 		2B0B6DE11D74C60E00A2ACDF /* tiltulo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiltulo.jpeg; sourceTree = "<group>"; };
+		2B0B6DE61D74CE3500A2ACDF /* cellAmande.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellAmande.h; sourceTree = "<group>"; };
+		2B0B6DE71D74CE3500A2ACDF /* cellAmande.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellAmande.m; sourceTree = "<group>"; };
+		2B0B6DE81D74CE3500A2ACDF /* cellAmande.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellAmande.xib; sourceTree = "<group>"; };
+		2B0B6DE91D74CE3500A2ACDF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2B0B6DEA1D74CE3500A2ACDF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2B0B6DEB1D74CE3500A2ACDF /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		2B0B6DF01D74CE6400A2ACDF /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		2B0B6DF11D74CE6400A2ACDF /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		2B0B6DF21D74CE6400A2ACDF /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		2B0B6DF31D74CE6400A2ACDF /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		2B0B6DF61D74D08600A2ACDF /* anillos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anillos.jpg; sourceTree = "<group>"; };
+		2B0B6DF71D74D08600A2ACDF /* aretes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aretes.jpg; sourceTree = "<group>"; };
+		2B0B6DF81D74D08600A2ACDF /* cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cart.jpg; sourceTree = "<group>"; };
+		2B0B6DF91D74D08600A2ACDF /* collares.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collares.jpg; sourceTree = "<group>"; };
+		2B0B6DFA1D74D08600A2ACDF /* dije.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dije.jpg; sourceTree = "<group>"; };
+		2B0B6DFB1D74D08600A2ACDF /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		2B0B6DFC1D74D08600A2ACDF /* esclava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esclava.jpg; sourceTree = "<group>"; };
+		2B0B6DFD1D74D08600A2ACDF /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		2B0B6DFE1D74D08600A2ACDF /* question.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question.jpg; sourceTree = "<group>"; };
 		2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B8653921D21867E003FDEC2 /* ExamenRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8653961D21867E003FDEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +160,15 @@
 		2B0B6DDD1D74C60E00A2ACDF /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				2B0B6DF61D74D08600A2ACDF /* anillos.jpg */,
+				2B0B6DF71D74D08600A2ACDF /* aretes.jpg */,
+				2B0B6DF81D74D08600A2ACDF /* cart.jpg */,
+				2B0B6DF91D74D08600A2ACDF /* collares.jpg */,
+				2B0B6DFA1D74D08600A2ACDF /* dije.jpg */,
+				2B0B6DFB1D74D08600A2ACDF /* email.png */,
+				2B0B6DFC1D74D08600A2ACDF /* esclava.jpg */,
+				2B0B6DFD1D74D08600A2ACDF /* map.png */,
+				2B0B6DFE1D74D08600A2ACDF /* question.jpg */,
 				2B0B6DDE1D74C60E00A2ACDF /* examen.jpg */,
 				2B0B6DDF1D74C60E00A2ACDF /* maps.png */,
 				2B0B6DE01D74C60E00A2ACDF /* paypal.jpeg */,
@@ -190,6 +233,10 @@
 				2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */,
 				2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */,
 				2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */,
+				2B0B6DF01D74CE6400A2ACDF /* CatalogViewController.h */,
+				2B0B6DF11D74CE6400A2ACDF /* CatalogViewController.m */,
+				2B0B6DF21D74CE6400A2ACDF /* ShopViewController.h */,
+				2B0B6DF31D74CE6400A2ACDF /* ShopViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -206,6 +253,12 @@
 		2B8653B11D219A56003FDEC2 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				2B0B6DE61D74CE3500A2ACDF /* cellAmande.h */,
+				2B0B6DE71D74CE3500A2ACDF /* cellAmande.m */,
+				2B0B6DE81D74CE3500A2ACDF /* cellAmande.xib */,
+				2B0B6DE91D74CE3500A2ACDF /* TableViewCell.h */,
+				2B0B6DEA1D74CE3500A2ACDF /* TableViewCell.m */,
+				2B0B6DEB1D74CE3500A2ACDF /* TableViewCell.xib */,
 				2B8653B71D219AFF003FDEC2 /* cellHome.h */,
 				2B8653B81D219AFF003FDEC2 /* cellHome.m */,
 				2B8653B91D219AFF003FDEC2 /* cellHome.xib */,
@@ -338,11 +391,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0B6E021D74D08600A2ACDF /* collares.jpg in Resources */,
 				2B0B6DE31D74C60E00A2ACDF /* maps.png in Resources */,
 				2B8653C21D21B280003FDEC2 /* colima.png in Resources */,
 				2B8653E71D22083A003FDEC2 /* colima.png in Resources */,
+				2B0B6E041D74D08600A2ACDF /* email.png in Resources */,
 				2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */,
 				2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */,
+				2B0B6E071D74D08600A2ACDF /* question.jpg in Resources */,
+				2B0B6DEF1D74CE3500A2ACDF /* TableViewCell.xib in Resources */,
 				2B8653DC1D220468003FDEC2 /* ameca.png in Resources */,
 				2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */,
 				2B0B6DE51D74C60E00A2ACDF /* tiltulo.jpeg in Resources */,
@@ -351,16 +408,23 @@
 				2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */,
 				2B8653E81D22083A003FDEC2 /* comala.png in Resources */,
 				2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */,
+				2B0B6DFF1D74D08600A2ACDF /* anillos.jpg in Resources */,
+				2B0B6E001D74D08600A2ACDF /* aretes.jpg in Resources */,
+				2B0B6E051D74D08600A2ACDF /* esclava.jpg in Resources */,
 				2B0B6DE41D74C60E00A2ACDF /* paypal.jpeg in Resources */,
 				2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */,
 				2B8653F21D220B33003FDEC2 /* guasave.png in Resources */,
 				2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */,
 				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
+				2B0B6E061D74D08600A2ACDF /* map.png in Resources */,
+				2B0B6E011D74D08600A2ACDF /* cart.jpg in Resources */,
 				2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */,
 				2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */,
 				2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */,
+				2B0B6E031D74D08600A2ACDF /* dije.jpg in Resources */,
 				2B8653F01D220B33003FDEC2 /* culican.png in Resources */,
 				2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */,
+				2B0B6DED1D74CE3500A2ACDF /* cellAmande.xib in Resources */,
 				2B8653C31D21B280003FDEC2 /* durango.png in Resources */,
 				2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */,
 				2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */,
@@ -434,7 +498,11 @@
 				2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */,
 				2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */,
 				2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */,
+				2B0B6DF41D74CE6400A2ACDF /* CatalogViewController.m in Sources */,
 				2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */,
+				2B0B6DF51D74CE6400A2ACDF /* ShopViewController.m in Sources */,
+				2B0B6DEE1D74CE3500A2ACDF /* TableViewCell.m in Sources */,
+				2B0B6DEC1D74CE3500A2ACDF /* cellAmande.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
