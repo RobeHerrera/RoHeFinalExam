@@ -132,22 +132,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xaW-Zt-FUw" userLabel="lblDescription2">
-                                <rect key="frame" x="20" y="268" width="288" height="131"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <string key="text">Jalisco es uno de los estados más típicos del país, ya que es el símbolo del tequila, mariachi, charería y mujeres bellas. Es un estado geográficamente privilegiado ya que cuenta con playas como Puerto Vallarta, Barra de Navidad, Melaque, Costalegre y Tenacatita. Así mismo contamos con el lago más grande de México que es Chapala donde se pueden encontrar pueblos típicos como Chapala, Ajijic, Jocotepec y Tizapan el Alto.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jalisco.png" id="s7D-XS-fG9" userLabel="imgState2">
                                 <rect key="frame" x="0.0" y="64" width="320" height="196"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="urN-Ah-Bch" userLabel="tblMunicipio">
-                                <rect key="frame" x="0.0" y="370" width="320" height="198"/>
+                                <rect key="frame" x="0.0" y="348" width="320" height="220"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -157,6 +148,15 @@
                                     <outlet property="delegate" destination="mQN-0I-iZK" id="ddb-fn-P5T"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xaW-Zt-FUw" userLabel="lblDescription2">
+                                <rect key="frame" x="20" y="276" width="288" height="154"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <string key="text">Jalisco es uno de los estados más típicos del país, ya que es el símbolo del tequila, mariachi, charería y mujeres bellas. Es un estado geográficamente privilegiado ya que cuenta con playas como Puerto Vallarta, Barra de Navidad, Melaque, Costalegre y Tenacatita. Así mismo contamos con el lago más grande de México que es Chapala donde se pueden encontrar pueblos típicos como Chapala, Ajijic, Jocotepec y Tizapan el Alto.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -234,11 +234,29 @@
                 <viewController storyboardIdentifier="MapsViewController" id="dsQ-rm-4Dv" customClass="MapsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1dy-Ak-7qj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="HFK-9R-gxW" userLabel="JsonView">
+                                <rect key="frame" x="0.0" y="351" width="320" height="217"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="RSU-0J-ebg" userLabel="MapsView">
+                                <rect key="frame" x="0.0" y="63" width="320" height="289"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ubicacion del Municipio" id="bWX-5s-AQv"/>
+                    <connections>
+                        <outlet property="JsonView" destination="HFK-9R-gxW" id="WQG-fj-bo8"/>
+                        <outlet property="MapsView" destination="RSU-0J-ebg" id="fZm-Xz-58y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJY-TS-VrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

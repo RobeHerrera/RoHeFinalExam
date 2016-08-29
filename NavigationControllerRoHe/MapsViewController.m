@@ -40,6 +40,7 @@
                                                             longitude:self.locationLongitude
                                                                  zoom:self.locationZoom];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    // GMSMapView *mapView_ = [GMSMapView mapWithFrame:self.MapsView.frame camera:camera];
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
     
