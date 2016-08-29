@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B8653911D21867E003FDEC2"
                BuildableName = "GoogleMapsRoHe.app"
-               BlueprintName = "GoogleMapsRoHe"
-               ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
+               BlueprintName = "ExamenRoHe"
+               ReferencedContainer = "container:ExamenRoHe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
             BuildableName = "GoogleMapsRoHe.app"
-            BlueprintName = "GoogleMapsRoHe"
-            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
+            BlueprintName = "ExamenRoHe"
+            ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
             BuildableName = "GoogleMapsRoHe.app"
-            BlueprintName = "GoogleMapsRoHe"
-            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
+            BlueprintName = "ExamenRoHe"
+            ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B8653911D21867E003FDEC2"
             BuildableName = "GoogleMapsRoHe.app"
-            BlueprintName = "GoogleMapsRoHe"
-            ReferencedContainer = "container:GoogleMapsRoHe.xcodeproj">
+            BlueprintName = "ExamenRoHe"
+            ReferencedContainer = "container:ExamenRoHe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

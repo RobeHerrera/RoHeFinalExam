@@ -41,6 +41,9 @@
         self.lblMunicipioDes.text   = @"AAlgunos aseguran que la localidad de Armería, fundada cerca del río del mismo nombre, fue en un principio, un lugar en el cual se armaban barcos, para posteriormente convertirse en un destacamento de guardias virreinales que otorgaban garantías a los viajeros que transitaban por el “Camino Real” hacia Manzanillo o de regreso a la ciudad de Colima; con el paso del tiempo, ahí se instaló una hacienda que se convirtió en el punto de partida de la localidad que hoy conocemos como Armería, que ya era reconocida en la región como uno de los sitios de gran tradición gracias a Cuyutlán y por ser una zona productora de sal a partir de la época precolombina.";
     
     }else  if ([self.destinationMunicpio  isEqual: @"Colima"]) {
+        self.coorLatitude = 19.246694;
+        self.coorLongitude = -103.725065;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"colima.png"];
         self.lblMunicipioDes.text   = @"Al llegar a La Ciudad de las Palmeras, como se le conoce a Colima, encuentras un paraíso donde exuberantes paisajes y majestuosos volcanes, son los principales protagonistas. Si a ello le añadimos una riqueza cultural, histórica y la siempre hospitalidad de su gente, entonces nos encontramos ante uno de los estados más interesantes y bellos de México. El nombre del estado y la ciudad de Colima ha sido interpretado erróneamente en distintas ocasiones. Las últimas investigaciones dicen que Colima, viene del náhuatl Acolman, que significa lugar donde tuerce el agua o lugar donde hace recodo el río. El territorio de Colima, del que casi tres cuartas partes de superficie están cubiertas por montañas y colinas, queda comprendido dentro de una derivación de la Sierra Madre del Sur, que se compone de cuatro sistemas montañosos.";
     
@@ -49,6 +52,9 @@
         self.lblMunicipioDes.text   = @"Los pobladores más antiguos del territorio de Comala se establecieron ahí hace más de 3,000 años. En esta zona florecieron importantes culturas como la olmeca, náhuatl (500 a. C.), tolteca, chichimeca (durante la época clásica, 1154-1429 d. C.), y la tarasca, que era la principal cultura a la llegada de los españoles, lo cual es muestra de la diversidad cultural que desde siempre ha existido en dicho lugar. En 1527, la región de Comala fue dada en Encomienda a Bartolomé López; durante más de 300 años este lugar fue considerado como asentamiento, rancho, pueblo, e incluso a principios del siglo dieciocho, aún se denominaba República de Indios, con un gobernador como autoridad. Fue hasta 1820 que Comala se constituyó como ayuntamiento, de conformidad con la Constitución de la Monarquía Española, y el primer alcalde fue Don Cayetano Pizarro. En 1857, Comala fue erigido como ayuntamiento, de acuerdo a la nueva Constitución Republicana.";
     
     }else  if ([self.destinationMunicpio  isEqual: @"Manzanillo"]) {
+        self.coorLatitude = 19.114060;
+        self.coorLongitude = -104.337654;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"manzanillo.jpg"];
         self.lblMunicipioDes.text   = @"Manzanillo es la ciudad cabecera del municipio de nombre homónimo y limita al norte con Minatitlan al este con Coquimatlán y Armería; al sur, está el océano Pacífico; y al oeste y noroeste limita con el estado de Jalisco. Es el puerto comercial más importante de México. La ciudad se compone de 9 localidades Tapeixtles, Salagua, Naranjo, Colomos, Miramar, Valle, Brisas, Santiago y Manzanillo (también conocido como Manzanillo centro). Gracias al desarrollo comercial de México, Manzanillo que se proyecta como un puerto comercial y destino turístico está experimentado un rápido crecimiento en infraestructura y atracciones turísticas. Se ubica 4 metros sobre el nivel del mar en el malecón.";
     
@@ -99,6 +105,9 @@
         self.lblMunicipioDes.text   = @"El municipio de Colotlán está ubicado en la región norte del estado de Jalisco, en México. El municipio cubre un área de aproximadamente 505 kilómetros cuadrados y queda ubicado en las coordenadas 22°12′N 103°18′O, a una altura de 1,720 metros sobre el nivel del mar.";
         
     }else  if ([self.destinationMunicpio  isEqual: @"Puerto Vallarta"]) {
+        self.coorLatitude = 20.651101;
+        self.coorLongitude = -105.228953;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"puertovallarta.png"];
         self.lblMunicipioDes.text   = @"PEn el 2005, el municipio contaba con una población estimada de 307,107 personas, así como cinco millones de turistas anuales. Junto con el municipio de Bahía de Banderas del estado de Nayarit, conforma la Zona Metropolitana de Puerto Vallarta siendo así la segunda más poblada de ambos estados. Asimismo el municipio es uno de los que registran mayor crecimiento poblaciónal en el estado, inclusive mayor que los municipios centrales. Es la segunda zona económica más importante del estado de Jalisco y el tercer puerto más importante de México. Actualmente, es uno de los lugares más visitados del país.";
     }
@@ -115,6 +124,9 @@
         self.lblMunicipioDes.text   = @"Guasave es uno de los 18 municipios del Estado de Sinaloa, México. Es el único municipio sinaloense mayoritariamente llano, las únicas elevaciones del municipio son islas o cerros costeros que rodean las bahías de Navachiste y San Ignacio. Antes de la llegada de los españoles, este municipio estuvo habitado po indígenas guasaves. El nombre proviene de un vocablo del grupo etnolingüístico cáhita, viene de guaza: cerco, tierra de labor, sementera o tierra entre milpas, y ave, al lado o junto, el topónimo significaría entonces lugar junto a los campos o donde hay tierras de labor cita requerida]. Es conocido en el estado como El corazón agrícola de México";
         
     }else  if ([self.destinationMunicpio  isEqual: @"Mazatlan"]) {
+        self.coorLatitude = 23.245197;
+        self.coorLongitude = -106.412893;
+        self.coorZoom = 12;
         self.imgMunicipio.image   = [UIImage imageNamed:@"mazatlan.jpg"];
         self.lblMunicipioDes.text   = @"El municipio de Mazatlán es uno de los municipios del estado mexicano de Sinaloa, se localiza en la parte sur del estado, entre los meridianos 105º46’23 y 106º30’51  O, y entre los paralelos 23°04'25 y 23°50'22 de latitud norte.Además del Océano Pacífico, dos ríos bañan este municipio: el Río Quelite al norte y el Río Presidio al sur. Su cabecera municipal es la ciudad de Mazatlán. De acuerdo los decretos municipales 9 y 4 de 1979 y 1981, respectivamente, la ciudad de Mazatlán fue fundada oficialmente el 14 de mayo de 1531  Según el censo del 2015 tenía una población de 502,547 habitantes";
         
