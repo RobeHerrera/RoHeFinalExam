@@ -14,7 +14,7 @@
 @property double locationLatitude;
 @property double locationLongitude;
 @property double locationZoom;
-@property (strong, nonatomic) IBOutlet UIView *MapsView;
+
 @property (strong, nonatomic) IBOutlet UIView *JsonView;
 
 @end

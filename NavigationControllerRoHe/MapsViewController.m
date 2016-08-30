@@ -11,6 +11,7 @@
 #import <Google/Analytics.h>
 
 @interface MapsViewController ()
+@property (strong, nonatomic) IBOutlet GMSMapView *MapsView;
 
 @end
 
@@ -40,16 +41,21 @@
                                                             longitude:self.locationLongitude
                                                                  zoom:self.locationZoom];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    // GMSMapView *mapView_ = [GMSMapView mapWithFrame:self.MapsView.frame camera:camera];
+    
     mapView_.myLocationEnabled = YES;
-    self.view = mapView_;
+    
+    [self.MapsView animateToCameraPosition:camera];
+    
+    //self.view = mapView_;
+    //self.MapsView = mapView_;
     
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(self.locationLatitude, self.locationLongitude);
     marker.title = @"UAG";
     marker.snippet = @"Clase de Maestría";
-    marker.map = mapView_;
+    marker.map = self.MapsView;
+   // self.MapsView.animateToLocation
 }
 
 
