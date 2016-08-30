@@ -25,11 +25,19 @@
     NSString  *stData           = [diData JSONRepresentation];
     
     NSString *stURL = [nURLMain stringByAppendingString:nURLByGeoCoord];
+   print(NSLog(@"String URL: %@",stURL))
+    print(NSLog(@"latitude URL: %@",latitude))
+    print(NSLog(@"longitude URL: %@",longitude))
+    
     stURL           = [stURL stringByAppendingString:latitude];
+    
+    print(NSLog(@"Si llego"))
+
     stURL           = [stURL stringByAppendingString:@"&lon="];
     stURL           = [stURL stringByAppendingString:longitude];
     stURL           = [stURL stringByAppendingString:@"&appid="];
     stURL           = [stURL stringByAppendingString:nAPPID];
+    
     
     return [self sendPost:stURL forData:stData andMode:nGET];
 }
