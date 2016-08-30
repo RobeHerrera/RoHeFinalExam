@@ -71,8 +71,7 @@
 
 - (IBAction)btnLoadPressed:(id)sender {
     
-    self.txtLatitude.text =@"20.679045";
-    self.txtLongitude.text =@"-103.340381";
+    /*Aqui van unos cambios*/
     
     if (![self.txtLatitude.text isEqual:@""] && ![self.txtLongitude.text isEqual:@""]) {
         
