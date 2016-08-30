@@ -71,18 +71,10 @@
 
 - (IBAction)btnLoadPressed:(id)sender {
     
-    /*Aqui van unos cambios*/
-    
-    if (![self.txtLatitude.text isEqual:@""] && ![self.txtLongitude.text isEqual:@""]) {
-        
-         print(NSLog(@"Entro en el if"))
+    /*Aqui van unos cambiosq*/
     
         [self qeueLoadData];
-    }
-    else {
-        self.lblCityValue.text = @"Error, campo vacío";
-    }
-    
+
 }
 
 /**********************************************************************************************/
@@ -106,8 +98,10 @@
     NSString *latText = [NSString stringWithFormat:@"%f", (self.locationLatitude)];
      NSString *lonText = [NSString stringWithFormat:@"%f", (self.locationLongitude)];
     
+    
+    
     mjsonGeo = [WebServices getWeatherWithLatitude:latText AndLongitude:lonText];
-    print(NSLog(@"mjsonGeo  = %@",mjsonGeo))
+    print(NSLog(@"RoHe mjsonGeo  = %@",mjsonGeo))
 }
 //----------------------------------------------------------------------------------------------
 - (void)didLoadData {
@@ -127,8 +121,8 @@
         self.lblHumidityValue.text      = [NSString stringWithFormat:@"%f", mainObject.humidity];
         self.lblTempMinValue.text       = [NSString stringWithFormat:@"%f", mainObject.temp_min];
         self.lblTempMaxValue.text       = [NSString stringWithFormat:@"%f", mainObject.temp_max];
-        self.lblSeaLevelValue.text      = [NSString stringWithFormat:@"%f", mainObject.sea_level];
-        self.lblGroundLevel.text        = [NSString stringWithFormat:@"%f", mainObject.grnd_level];
+        self.lblLat.text = [NSString stringWithFormat:@"%f", self.locationLatitude];
+        self.lblLong.text = [NSString stringWithFormat:@"%f", self.locationLongitude];
         
         
         self.lblCityValue.text          = stName;
