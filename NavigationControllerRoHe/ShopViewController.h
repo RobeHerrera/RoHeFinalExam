@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Home.h"
+#import "PayPalMobile.h"
 
-@interface ShopViewController : UIViewController
+@interface ShopViewController : UIViewController<PayPalPaymentDelegate, PayPalFuturePaymentDelegate, PayPalProfileSharingDelegate>
 @property NSString *stuffNames;
 @property NSString *stuffPrices;
 @property NSString *stuffMaterial;
@@ -22,5 +23,7 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *btnBack;
 - (IBAction)btnPressBack:(id)sender;
-
+@property (strong, nonatomic) IBOutlet UIButton *btnBuy;
+@property (strong, nonatomic) IBOutlet UITextField *textQuant;
+@property (strong, nonatomic) IBOutlet UILabel *lblTotal;
 @end

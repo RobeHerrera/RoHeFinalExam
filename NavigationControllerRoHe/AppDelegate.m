@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 @import GoogleMaps;
 #import <Google/Analytics.h>
+#import "PayPalMobile.h"
 
 
 @interface AppDelegate ()
@@ -30,6 +31,10 @@
     GAI *gai = [GAI sharedInstance];
     gai.trackUncaughtExceptions = YES;  // report uncaught exceptions
     gai.logger.logLevel = kGAILogLevelVerbose; // remove before app release
+    
+    // ...
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"YOUR_CLIENT_ID_FOR_PRODUCTION",
+                                                           PayPalEnvironmentSandbox : @"YOUR_CLIENT_ID_FOR_SANDBOX"}];
     return YES;
 }
 
