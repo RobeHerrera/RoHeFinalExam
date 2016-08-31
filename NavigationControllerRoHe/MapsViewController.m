@@ -17,6 +17,7 @@
 
 @implementation MapsViewController{
     GMSMapView *mapView_;
+    GMSCameraPosition *camera;
 }
 -(void)viewWillAppear:(BOOL)animated{
     id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
@@ -37,25 +38,48 @@
 - (void)createMap {
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.locationLatitude
-                                                            longitude:self.locationLongitude
-                                                                 zoom:self.locationZoom];
+    camera = [GMSCameraPosition cameraWithLatitude:self.locationLatitude
+                                longitude:self.locationLongitude
+                                zoom:self.locationZoom];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     
-    mapView_.myLocationEnabled = YES;
+    /*
+    mapView_.delegate = self;
+    self.view = mapView_;
+    */
     
     [self.MapsView animateToCameraPosition:camera];
+    self.MapsView.delegate = self;
+    self.MapsView = mapView_;
     
-    //self.view = mapView_;
-    //self.MapsView = mapView_;
-    
+    /*
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(self.locationLatitude, self.locationLongitude);
     marker.title = @"UAG";
     marker.snippet = @"Clase de Maestría";
     marker.map = self.MapsView;
-   // self.MapsView.animateToLocation
+    //self.MapsView.animateToLocation
+     */
+}
+
+#pragma mark - GMSMapViewDelegate
+
+- (void)mapView:(GMSMapView *)mapView didTapAtCoordinate:(CLLocationCoordinate2D)coordinate {
+    NSLog(@"You tapped at %f,%f", coordinate.latitude, coordinate.longitude);
+    self.lblLat.text = [NSString stringWithFormat:@"%f", coordinate.latitude];
+    self.lblLong.text = [NSString stringWithFormat:@"%f", coordinate.longitude];
+    self.lblLat.textColor = [UIColor redColor];
+    self.lblLong.textColor = [UIColor redColor];
+    
+    //[mapView_ clear];
+    [self.MapsView clear];
+    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(coordinate.latitude, coordinate.longitude);
+    GMSMarker *marker = [GMSMarker markerWithPosition:position];
+    marker.title = @"Seleccion...";
+    marker.map = self.MapsView;
+    //marker.map = mapView_;
+    NSLog(@"Fin del marker");
 }
 
 
@@ -68,6 +92,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 - (IBAction)btnLoadPressed:(id)sender {
     
@@ -95,8 +121,8 @@
 //----------------------------------------------------------------------------------------------
 - (void)loadData {
     print(NSLog(@"Antes del Json"))
-    NSString *latText = [NSString stringWithFormat:@"%f", (self.locationLatitude)];
-     NSString *lonText = [NSString stringWithFormat:@"%f", (self.locationLongitude)];
+    NSString *latText = [NSString stringWithFormat:@"%@", (self.lblLat.text)];
+     NSString *lonText = [NSString stringWithFormat:@"%@", (self.lblLong.text)];
     
     
     
@@ -121,8 +147,9 @@
         self.lblHumidityValue.text      = [NSString stringWithFormat:@"%f", mainObject.humidity];
         self.lblTempMinValue.text       = [NSString stringWithFormat:@"%f", mainObject.temp_min];
         self.lblTempMaxValue.text       = [NSString stringWithFormat:@"%f", mainObject.temp_max];
-        self.lblLat.text = [NSString stringWithFormat:@"%f", self.locationLatitude];
-        self.lblLong.text = [NSString stringWithFormat:@"%f", self.locationLongitude];
+        self.lblLat.textColor = [UIColor blackColor];
+        self.lblLong.textColor = [UIColor blackColor];
+        
         
         
         self.lblCityValue.text          = stName;

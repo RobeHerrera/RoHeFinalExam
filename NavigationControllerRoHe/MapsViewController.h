@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "WebServices.h"
 #import "Declarations.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface MapsViewController : UIViewController
+@interface MapsViewController : UIViewController <CLLocationManagerDelegate,GMSMapViewDelegate>
 
 
 @property double locationLatitude;
